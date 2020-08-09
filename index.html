@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/stule.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <title>Trustrate</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav>
+            <div class="container nav">
+                <div class="header__wraper">
+                    <img class="logo" src="/assets/images/logo.svg" alt="Logo">
+    
+                    <ul>
+                        <ll class="li"><a href="#">Для кого?</a></ll>
+                        <ll class="li"><a href="#">Как это работает?</a></ll>
+                        <ll class="li"><a href="#">Источники</a></ll>
+                        <ll class="li"><a href="#">Отзывы</a></ll>
+                    </ul>
+                </div>
+    
+                <button>Получить отчет</button>
+            </div>
+        </nav>
+    </header>
+    
+
+    <section class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1>Высокотехнологичный сервис проверки надежности физических лиц</h1>
+                <p>Наш сервис позволяет собрать информацию о физическом лице</p>
+                
+                <div class="reports">
+                    <a href="#">Что входит в отчёт?</a>
+                    <a href="#">Пример отчёта</a>
+                </div> 
+            </div>
+
+        <form class="toggle" action="#">  
+            <div class="report">
+                <h2>Легкий</h2>
+                <p class="slider">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>  
+                </p>
+            </div>
+              <div class="col">
+                  <div class="left">
+                    <p class="name">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Имя" id="name">
+                    </p>
+
+                    <p class="family">
+                        <label for="family">Фамилия</label>
+                        <input type="text" placeholder="Фамилия" id="family">
+                    </p>
+
+                    <p class="patronymic"> 
+                        <label for="other">Отчество</label>
+                        <input type="text" placeholder="Отчество" id="other">
+                    </p>
+
+                    <p class="region">
+                        <label for="region">Регион прописки</label>
+                        <input type="text" placeholder="Регион прописки" id="region">
+                    </p>
+
+                    <p class="date__birth">
+                        <label class="label__calendar" for="date">Дата рождения</label>
+                        <input class="input__calendar" type="date" placeholder="Дата рождения" id="date">
+                        <img src="/assets/images/calendar.png" alt="">
+                    </p>
+
+                    <div class="passport">
+                        <p class="passport__left">
+                            <label for="passport__left">Дата паспорта</label>
+                            <input type="number" placeholder="Номер и серия паспорта" id="passport__left">
+                        </p>
+
+                        <p class="passport__right">
+                            <label for="passport__right">Дата выдачи паспорта</label>
+                            <input type="date" placeholder="Дата выдачи паспорта" id="passport__rigth">
+                            <img src="/assets/images/calendar.png" alt="">
+                        </p>
+                    </div>
+
+                    <div class="price">
+                        <div>
+                            <span>Стоимость отчета:</span><br>
+                            <number>190</number>
+                            <img src="/assets/images/₽.svg" alt="">
+                        </div>
+                    </div>
+                    
+                    <p class="email">
+                        <label for="email">email</label>
+                        <input type="text" placeholder="На какой email отправить отчёт?" id="email">
+                        <button type="submit">Подтвердить</button>
+                    </p>
+                  </div>
+                <div class="right">
+                    <div>
+                        <label class="container__checkbox">
+                            Настоящим поручаю ООО "Дата Девайс" осуществить обработку персональных данных на основе моего <a href="#">Поручения оператора</a>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <div class="last-btn">
+                        <label class="container__checkbox">
+                            Я даю согласие на обработку персональных данных в соответсвии с условиями <a href="#">политики обработки персональных данных и политики обработки технических данных</a>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <button class="btn-big">Получить отчет</button>
+                </div>
+            </div>
+
+              <p class="terms">Нажимая кнопку "Получить отчет" Я соглашаюсь с условиями <a href="#">Оферты о заключении лицензионного договора</a></p>
+        </form>
+            
+            
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container container__inner container__inner--border">
+            <ul>
+                <li>
+                    <img src="/assets/images/flag.png" alt="">
+                    <h3>№1</h3>
+                    <p>лучший на рынке по скорости получения и достоверности</p>
+                </li>
+                <li>
+                    <img src="/assets/images/time.png" alt="">
+                    <h3>24/7</h3>
+                    <p>доступен круглосуточно, запроси отчет в любое время.</p>
+                </li>
+                <li>
+                    <img src="/assets/images/profitably.png" alt="">
+                    <h3>Выгодно</h3>
+                    <p>Самая выгодная стоимость отчетов.</p>
+                </li>
+                <li>
+                    <img src="/assets/images/safely.png" alt="">
+                    <h3>Безопасно</h3>
+                    <p>Полностью соответствует ФЗ №152 «О персональных данных» </p>
+                </li>
+            </ul>
+
+            <p class="footnote">Вернем деньги если вы получите неполную или недостоверную информацию!</p>
+        </div>
+    </section>
+
+    <section class="types">
+        <div class="container container__inner container__inner--border">
+            <h3 class="heading">Заказывая отчёт, наш сервис позволит
+                собрать следующую информацию
+                о физическом лице:
+            </h3>
+
+            <section class="type">
+                <h4>
+                    Легкий <span>/</span> <number>190</number> 
+                    <img src="/assets/images/₽-gr.svg" alt="">
+                </h4>
+
+                <ul>
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        Долги, алименты, арест имущества, установленные службой судебных приставов;
+                    </li>
+
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        Нахождение в розыске по базе МВД по всем регионам РФ;
+
+                    </li>
+
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        Нахождение в списках террористов и экстремистов;
+                    </li>
+
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        Регистрация в качестве ИП (индивидуального предпринимателя);
+                    </li>
+
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        Работа в качестве руководителя ООО, ЗАО, АО;
+                    </li>
+
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        Наличие доли в уставном капитале организаций.
+                    </li>
+                </ul>
+            </section>
+
+            <section class="type">
+                <h4>
+                    Расширенный <span>/</span> <number>390</number> 
+                    <img src="/assets/images/₽-gr.svg" alt="">
+                </h4>
+
+                <ul>
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        Все, что в «Легком отчёте»;
+                    </li>
+
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        Действительность паспорта;
+                    </li>
+
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        ИНН физического лица;
+                    </li>
+
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        Налоговые начисления;
+                    </li>
+
+                    <li>
+                        <img src="/assets/images/tick.svg" alt="">
+                        Оценка финансового состояния.
+                    </li>
+
+                </ul>
+            </section>
+        </div>
+    </section>
+
+    <section class="clients">
+        <div class="container">
+            <h3 class="heading">Кому будет интересен сервис?</h3>
+
+            <ul>
+                <li><a class="link__clients" href="#">Частные лица</a></li>
+                <li><a class="link__clients" href="#">Отдел кадров</a></li>
+                <li><a class="link__clients" href="#">Служба безопасности</a></li>
+                <li><a class="link__clients" href="#">Руководители организаций</a></li>
+            </ul>
+
+            <div class="inner">
+                <img src="/assets/images/clients.png" width="655px" height="465px" alt="">
+
+                <div class="description">
+                    <p>
+                        Каждому из нас в повседневной жизни приходиться взаимодействовать
+                        с новыми или незнакомыми людьми по множеству бытовых вопросов. 
+                        Наш отчет точно пригодится в следующих случаях:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <img src="/assets/images/vector.svg" alt="">
+                            Проверка продавца или покупателя перед покупкой квартиры или другой недвижимости;
+                        </li>
+
+                        <li>
+                            <img src="/assets/images/vector.svg" alt="">
+                            Проверка продавца или покупателя перед покупкой автомобиля или других значимых покупках;
+                        </li>
+
+                        <li>
+                            <img src="/assets/images/vector.svg" alt="">
+                            Проверка арендатора или арендодателя при сдаче/аренде недвижимости;
+                        </li>
+
+                        <li>
+                            <img src="/assets/images/vector.svg" alt="">
+                            Проверка няни или домработницы, другого домашнего персонала;
+                        </li>
+
+                        <li>
+                            <img src="/assets/images/vector.svg" alt="">
+                            Проверка в личных интересах: одолжить денег, передать во временное пользование личные вещи.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works">
+        <div class="container container__inner container__inner--border">
+            <h3>Как это работает</h3>
+            <div class="work__inner">
+                <section class="work">
+                    <img class="circle1" src="/assets/images/circle1.png" alt="">
+                    <h4>Ввод данных и оплата</h4>
+                    <ol>
+                        <li>Введите информацию для запроса согласно анкете;</li>
+                        <li>Укажите email, на который хотите получить отчет;</li>
+                        <li>Совершите оплату отчета.</li>
+                    </ol>
+                </section>
+
+                <section class="work">
+                    <img class="circle2" src="/assets/images/circle2.png" alt="">
+                    <h4>Сбор информации</h4>
+                    <p>
+                        После ввода данных сервис начинает собирать данные из источников.
+                        Мы используем только официальные источники, поэтому в отчёт попадает полная и достоверная информация.
+                    </p>
+                </section>
+
+                <section class="work">
+                    <img class="circle3" src="/assets/images/circle3.png" alt="">
+                    <h4>Формирование отчёта</h4>
+                    <p>
+                        Занимает 5–10 минут. Это время необходимо, чтобы гарантированно получить ответ от всех источников.
+                        Как только отчёт будет готов, сервис отправит его вам на указанный email.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <section class="src">
+        <div class="container container__inner">
+            <h3 class="heading">Наши источники</h3>
+
+            <div class="src__inner">
+                <div class="src__row1">
+                    <div class="src__item">
+                        <img src="/assets/images/src1.jpg" alt="">
+                        <a href="#"><span>База</span> недействительных паспортов МВД</a>
+                    </div>
+    
+                    <div class="src__item">
+                        <img src="/assets/images/src1.jpg" alt="">
+                        <a href="#"><span>База</span> розыска МВД</a>
+                    </div>
+    
+                    <div class="src__item">
+                        <img src="/assets/images/src3.jpg" alt="">
+                        <a href="#"><span>База</span> Росфинмониторинг</a>
+                    </div>
+    
+                    <div class="src__item">
+                        <img src="/assets/images/src4.jpg" alt="">
+                        <a href="#"><span>База</span> ФССП</a>
+                    </div>
+                </div>
+
+                <div class="src__row2">
+                    <div class="src__item">
+                        <img src="/assets/images/src5.jpg" alt="">
+                        <a href="#">Федеральная нотариальная палата</a>
+                    </div>
+
+                    <div class="src__item">
+                        <img src="/assets/images/src6.jpg" alt="">
+                        <a href="#">Коммерческие источники информации</a>
+                    </div>
+
+                    <div class="src__item">
+                        <img src="/assets/images/src7.jpg" alt="">
+                        <a href="#"><span>Налоговая служба</span> (ЕГРЮЛ, ЕГРИП, ИНН)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container container__inner">
+            <div class="feedback-heading">
+                <h3 class="heading">Отзывы о нас</h3>
+                <div class="arrow">
+                    <svg class="arrow__prew" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.785 8.74997L11.49 2.04497L9.7225 0.277466L0 9.99997L9.7225 19.7225L11.49 17.955L4.785 11.25H20V8.74997H4.785Z" fill="#cccc"/>
+                    </svg>
+                    <img src="/assets/images/next.svg" alt="">
+                </div>
+            </div>
+            
+            <div class="about__article">
+                <article>
+                    <div class="article-heading">
+                        <img src="/assets/images/article-img.jpg" alt="">
+                        <div class="heading-text">
+                            <div class="name">Демьяненко Анатолий</div>
+                            <div class="firm">ООО "Лартикс"</div>
+                        </div>
+                    </div>
+                    <p>
+                        “Очень удобный сервис! Можно проверить: действителен
+                        ли паспорт, зарегистрирован ли человек как ИП, имеет ли задолженности, находится ли человек в розыске.
+                    </p>
+    
+                    <p>
+                        Раньше все это нужно было долго собирать из разных источников, а теперь достаточно знать ФИО, год рождения, Регион регистрации и паспортные данные. Хороший сервис для работы и личного пользования.”
+                    </p>
+                </article>
+    
+                <article>
+                    <div class="article-heading">
+                        <img src="/assets/images/article-img-2.jpg" alt="">
+                        <div class="heading-text">
+                            <div class="name">Мухаметьянова Татьяна</div>
+                            <div class="firm">Частное лицо</div>
+                        </div>
+                    </div>
+                    <p>
+                        “Отличный сервис с понятной структурой. Попробовала впервые, но разобралась практически сразу: все функции упорядочены, удобный интерфейс, нет ничего лишнего. Всем советую!”
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <div class="container container__inner">
+        <section class="check">
+            <button class="btn-big btn-big__check">Проверить человека</button>
+        </section>
+    </div>
+
+        <div class="container container__inner">
+            <footer class="footer">
+                <div class="footer__first">
+                    <img src="/assets/images/footer-logo.jpg" alt="">
+                    <p class="footer__text">«онлайн сервис проверки физических лиц»</p>
+                    <p class="footer__copyright">© 2020, все права защищены</p>
+                </div>
+
+                <div class="footer__list footer__list--menu">
+                    <h2 class="second__heading">Меню</h2>
+
+                    <ul class="second">
+                        <li><a class="second__item" href="#">Для кого?</a></li>
+                        <li><a class="second__item" href="#">Как это работает?</a></li>
+                        <li><a class="second__item" href="#">Источники</a></li>
+                        <li><a class="second__item" href="#">Отзывы</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__list footer__list--docs">
+                    <h2 class="second__heading">Документы</h2>
+
+                    <ul class="second">
+                        <li>
+                            <img src="/assets/images/arrow-list.svg" alt="">
+                            <a class="second__item" href="#">
+                                Политика обработки персональных данных
+                            </a>
+                        </li>
+
+                        <li>
+                            <img src="/assets/images/arrow-list.svg" alt="">
+                            <a class="second__item" href="#">
+                                Политика обработки технических данных
+                            </a>
+                        </li>
+
+                        <li>
+                            <img src="/assets/images/arrow-list.svg" alt="">
+                            <a class="second__item" href="#">
+                                Оферта о заключении лицензионного договора
+                            </a>
+                        </li>
+
+                        <li>
+                            <img src="/assets/images/arrow-list.svg" alt="">
+                            <a class="second__item" href="#">
+                                Поручение оператора
+                            </a>
+                        </li>
+
+                        <li>
+                            <img src="/assets/images/arrow-list.svg" alt="">
+                            <a class="second__item" href="#">
+                                О компании
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer__last-col">
+                    <div class="last-col__item">
+                        <h3>Техническая поддержка</h3>
+                        <a class="last-col__item--email" href="mailto:support@trustrate.ru">support@trustrate.ru</a>
+                    </div>
+
+                    <div class="last-col__item">
+                        <h3>Для сотрудничества</h3>
+                        <a class="last-col__item--email" href="mailto:corp@trustrate.ru">corp@trustrate.ru</a>
+                    </div>
+
+                    <div class="made">
+                        <span class="made__gray">made by</span> wonderbase
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+</body>
+</html>
